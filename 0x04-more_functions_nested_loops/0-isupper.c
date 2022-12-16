@@ -1,14 +1,18 @@
 #include "main.h"
 
 /**
- * _isdigit - check if numbers are 0 - 9
- * @c: char to check
- * Return: 0 or 1
+ * _isupper - check if parameter is an uppercase character.
+ * @c: input character.
+ * Return: 1 if ias an uppercase character, 0 in other case.
  */
-int _isdigit(int c)
+int _isupper(int c)
 {
-if (c >= "0" && c <= "9")
-return (1);
-else
-return (0);
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
