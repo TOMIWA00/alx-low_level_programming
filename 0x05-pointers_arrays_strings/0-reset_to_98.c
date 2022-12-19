@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - update the value of n to 98
+ * Description: 
  * gn: input
  * Return: n
  */
